@@ -41,7 +41,7 @@ app.use(app.router);
 // Declare your routes here
 app.get('/', routes.index);
 app.get('/milestone1', routes.index);
-app.get('/milestone2', routes.coming);
+app.get('/milestone2', routes.m2);
 app.get('/milestone3', routes.coming);
 app.get('/milestone4', routes.coming);
 app.get('/milestone5', routes.coming);

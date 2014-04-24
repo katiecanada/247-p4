@@ -6,3 +6,7 @@ exports.index = function(req, res){
 exports.coming = function(req, res){
   res.render('coming', { title: 'Milestone Coming Soon' });
 };
+
+exports.m2=function(req, res){
+  res.render('m2', { title: 'Milestone 2' });
+};
