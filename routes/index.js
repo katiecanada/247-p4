@@ -14,3 +14,7 @@ exports.m2=function(req, res){
 exports.m3=function(req, res){
   res.render('m3', { title: 'Milestone 3' });
 };
+
+exports.m4=function(req, res){
+  res.render('m4', { title: 'Milestone 4' });
+};
