@@ -22,3 +22,7 @@ exports.m4=function(req, res){
 exports.m5=function(req, res){
   res.render('m5', { title: 'Milestone 5' });
 };
+
+exports.m6=function(req, res){
+  res.render('m6', { title: 'Milestone 6' });
+};

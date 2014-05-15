@@ -1,6 +1,8 @@
 
 <h2> Introduction </h2>
 
+<h3> URL to new project: <a href="http://youtube-react.herokuapp.com">youtube-react.herokuapp.com</a></h3>
+
 <h3> Motivation </h3>
  <p>The main motivation of our user test is to test the ease of sharing and watching a video through our product vs simply sharing and watching a youtube link. We hope to gain insights on the overall ease of use as well as specific interface elements on both the sending and receiving ends. 
 Our specific driving questions are:</p>
@@ -33,4 +35,103 @@ Our study tasks are as follows:</p>
 <li> We will ask users to think alout while watching their friends' reactions. This will help us understand how much they enjoy the experience and will compliment the interview results </li>
 <li> We will measure the number of friends who accept/decline the video invitation. In cases where a user did not choose to be recorded while watching the video we will ask the orignal sender to sent it to another friend to ensure that we are still able to fully test the number of videos they were able to watch at once. </li>
 </ol>
+
+
+<h3> Results </h3>
+<h4>Time to share video</h4>
+<ol>
+<li> In general, sending the link through our app was slower than simply sending it through youtube </li>
+<li> The average time to simply send the link was 28.9s </li>
+<li>The average time to use the email feature in our app was 1.02.5</li>
+<li>While it is possible to share a video through our app using by simply sending a link, most users did not notice this because the link was placed under the email box which is what they saw first
+</li>
+<li>Sending through our email feature was really slow because users had to type in their friends’ emails and many did not remember these without looking them up </li>
+</ol>
+<br>
+<br>
+
+<h4>Comfort being recorded</h4>
+<ol>
+<li>5/14 people we sent it to chose not to be recorded </li>
+<li>Most of our users seemed comfortable being recorded, but many did not initially realize they were going to be </li>
+<li>Most users did not realize they had to turn the camera on before watching the video</li>
+<li> Once they pressed play, all users knew they when the recording started and stopped </li>
+<li>People were generally comfortable with watching video of self while being recorded: average was 5.4 on 7 pt likert scale </li>
+</ol>
+<br>
+<br>
+<br>
+<h4>Focussing on Videos</h4>
+<ol>
+<li> Number of videos our users reported being able to focus on: 2 1 3 3 5 </li>
+<li> Our participants did not all agree on how many videos it was possible to focus on at once. One person said they could only focus on 1 at a time but were able to watch each video for a short amount of time. Another said the opposite in that there was no limit she could perceive. </li>
+<li>Overall, the consensus seemed to be 2-3 videos were easiest to focus on </li>
+<li> Our users had a hard time focussing on the reaction videos due to the relative size of our reaction videos compared to the main youtube video </li>
+</ol>
+
+<br>
+<br>
+<br>
+<h4>General Comments</h4>
+<ol>
+<li>Recipients thought the email sent from our email-sending feature was sketchy and seemed like a phone had been hacked </li>
+<li>Overall enjoyability of watching reactions was high. This seemed to be correlated to the number of videos watched. Those who watched too many videos liked it less. Some viewers had also seen the videos before so their reactions were less organic and that was less enjoyable for the user to watch </li>
+<li> It wasn’t clear to most users that the name you choose at the beginning is important for when you come back to watch the reaction videos </li>
+<li> Almost all users clicked on the reaction videos to try to get them to play instead of correctly clicking on the main video to get all videos to play </li>
+<li> It wasn't obvious that you need to allow camera permission before clicking play on youtube video </li>
+<li> Some button text wasn’t clear eg. ‘upload’ doesn’t actually upload anything </li>
+<li>Reaction videos do not automatically show up without refreshing the page so this was confusing to users</li>
+</ol>
+<br> <br> <br> <br> <br><br>
+<div>
+<h3> Discussion </h3>
+<h4> Shortcomings and Caveats in Testing </h4>
+<ol>
+<li>We had some bugs in our app which detracted from the user experience and may have influenced the ‘enjoyment’ ranking of our users</li>
+<li>We only had 1 user watch each different number of reaction videos so it is hard to standardize this data and be sure of how many videos each person can actually watch enjoyable since they have nothing to compare it to</li>
+<li>Most of the users were our friends and therefore trusted the link we sent them and mostly chose to be recorded. The number of people who accepted these things would probably be lower if the users did not know and trust the site’s developers</li>
+<li>The friends that the user sent the video link to were often in different physical locations and watched the videos at different times, preventing us from observing their interaction with the site. We had to remotely interview the viewers to determine their level of comfort with the app </li>
+</ol>
+<br><br><br>
+<h4> What we Learned </h4>
+<ol>
+<li>Most users cannot focus on more than 3 videos</li>
+<li>Users focus on the biggest thing on the screen which made it more intuitive to focus on the main video instead of the reaction videos</li>
+<li>It is intuitive to click on the video you want to watch to make it play. Users did not immediately understand that pressing play on the main video played all of the reactions as well</li>
+<li>Users did not read our explanatory text in any part of the site. Viewers did not read our explanatory text on the top of the screen and were therefore confused about the fact that they were going to be recorded. We need a more eye-catching way of explaining the app to new viewers. Senders didn’t read far enough to discover both ways to send their video through our app </li>
+<li> In general people liked our idea and were excited to view their friends reactions, but this varied alot based on the video they chose (how funny it is and how long it is) and whether or not their friends provided organic reactions  </li>
+</ol>
+</div>
+<br><br><br>
+<h3> Implications </h3>
+<ol>
+<li>Resize videos and make the reaction videos more central
+</li>
+<li>Add more helpful text in the popup that asks for users’ names to explain why this is important </li>
+<li>Limit number of displayed reaction videos to 3
+</li>
+<li>Potentially add way to store ‘contacts’ within the app or access address books/facebook friends to make sending easier
+</li>
+<li>Start all videos playing if user clicks on any of the videos
+</li>
+<li>Rewrite button text to make video adding and sending more clear
+</li>
+<li>Fix bug where new reaction videos do not automatically load for senders without refreshing the page
+</li>
+<li>Need to reword text we send in the auto email to make it less spammy. More user studies will be helpful here
+</li>
+<li>Need to prompt users to turn the camera on so they don’t turn it off (we could possibly do this in the pop up)
+</li>
+<li>Emphasize link sharing method over the email sending method since sending link is more practical in most cases
+</li>
+<li>Need to make it clear to everyone how long the reaction videos will be stored and who they will be seen by
+</li>
+</ol>
+
+
+
+
+
+
+
 
