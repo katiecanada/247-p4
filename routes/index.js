@@ -26,3 +26,7 @@ exports.m5=function(req, res){
 exports.m6=function(req, res){
   res.render('m6', { title: 'Milestone 6' });
 };
+
+exports.m7=function(req, res){
+  res.render('m7', { title: 'Milestone 7' });
+};

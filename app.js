@@ -46,7 +46,7 @@ app.get('/milestone3', routes.m3);
 app.get('/milestone4', routes.m4);
 app.get('/milestone5', routes.m5);
 app.get('/milestone6', routes.m6);
-app.get('/milestone7', routes.coming);
+app.get('/milestone7', routes.m7);
 app.get('/milestone8', routes.coming);
 
 
