@@ -1,38 +1,47 @@
-<h2> App Url: </h2>
-<p> tranquil-rite-573.appspot.com </p>
+<h1> Milestone 4 </h1>
 
-<h2>Feature Choices (+rationale):</h2>
-<p>
+<div class="section">
+<h3> First Working Prototype </h3>
+This week we began to implement our social online shopping idea. We ran into many technical difficulties so we chose not to move forward with this idea.  
+</div>
+
+<div class="section">
+<h3> App Url: </h3>
+tranquil-rite-573.appspot.com 
+</div>
+
+<div class="section">
+<h3>Feature Choices (+rationale):</h3>
 -We decided to prioritize implementing tabs and the ability to see the other person’s mouse because we felt that these would clear up the biggest usability issues that we found in the WOZ test <br>
 -We decided to use Amazon astores to implement the shopping functionality because it provided the most realistic and robust shopping experience. The downside of this choice is that we are slightly limited by UI and it forces the users to pay in a separate browser from the hangout. We decided that the pros outweigh cons because paying in a separate browser window ends up being a strong security feature and helps us avoid the issue of showing the other user personal credit card information. Astores also do allow us to edit their css so we should be able to place all of the UI elements where we want them on the screen <br>
 -We used the Hangout API to achieve the real time communication that we want users to have while shopping. We chose this because it allows users to see and hear each other while still giving us control over the majority of the screen for the shopping functionality <br>
-</p>
+</div>
 
-<h2>Implementation Progress:</h2>
-<p>
+<div class="section">
+<h3>Implementation Progress:</h3>
 -We were able to successfully use the hangout api to direct our site to a live hangout between users <br>
 -We successfully used the Amazon api to integrate a full shopping experience with real products <br>
 -The full shopping functionality is available within the hangout (but it is not shared between users) <br>
 -Mouse tracking works so the user can see where on the screen their partner’s mouse is <br>
 -We implemented tabs that allow users to toggle between states 
-</p>
+</div>
 
-<h2> Prioritized list of implementation + design issues: </h2>
-<p>
+<div class="section">
+<h3> Prioritized list of implementation + design issues: </h3>
 1. Our number 1 priority is to figure out how to implement the shared/public state. We are potentially at a pivot point because nothing that we have tried has worked because we can not access the data we need from the astore because it is embedded in an iframe. Before we can fully user test we need to figure out if the shared screen functionality we desire is possible and if it is not we may need to pivot our idea to something more feasible to implement. <br>
 2. While the mouse tracking works, there are bugs with tracking over the iframe. We need to fix this before we can user test to achieve the desired effect of the tracking (ie allowing users to point at objects instead of just describing them to each other).
 3. Our next priority is to take full advantage of the customizable css of the astores and to modify the shopping UI to more exactly match the UI that we tested with the WOZ test. While we did not have time this week to perfect UI, the shopping UI from the WOZ test was succssful so we want to mimic it as closely as possible before user testing our functional prototype <br>
 4. Improve text. We did not have time this week to clear up all of the confusing text that we found in the WOZ test. We need to review all of our instructions and button text and verify that users interpret them the way we intend. An important part of this step will be to make sure that users know when the browser will open a new tab (eg. when they go to pay), that they understand they are browsing real amazon products, that they are able to distinguish between private and public modes, and that they know which cursor belongs to which user. <br>
 5. Tutorial. We currently have no instructions about how to use the app. While most of it should be familiar (eg. the amazon interface) we need to provide some explanation of the shared state functionality and any other potentially confusing features <br>
 6. favorites/history. We originally wanted to provide users the ability to view their own and each other’s shopping history and current favorites. Since the amazon astores do not support this we decided to make it the lowest priority. While we would still like to implement these features, they are not essential to the core shopping functionality and will be challenging to implement so we are not going to attempt them until we solve our more pressing problems. <br>
-</p>
+</div>
 
-<h2>
-Sources: </h2>
-<p>
+<div class="section">
+<h3>
+Sources: </h3>
 -https://code.google.com/p/google-plus-hangout-samples/source/browse/#hg%2Fsimple-app <br>
 -https://code.google.com/p/google-plus-hangout-samples/source/browse/#hg%2Fsend-message-app <br>
 -https://astore.amazon.com/ <br>
 -https://developers.google.com/+/hangouts/ <br>
 -http://jsfiddle.net/syahrasi/Us8uc/  <br>
-</p>
+</div>

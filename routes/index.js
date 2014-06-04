@@ -7,6 +7,10 @@ exports.coming = function(req, res){
   res.render('coming', { title: 'Milestone Coming Soon' });
 };
 
+exports.m1=function(req, res){
+  res.render('m1', { title: 'Milestone 1' });
+};
+
 exports.m2=function(req, res){
   res.render('m2', { title: 'Milestone 2' });
 };
@@ -29,4 +33,8 @@ exports.m6=function(req, res){
 
 exports.m7=function(req, res){
   res.render('m7', { title: 'Milestone 7' });
+};
+
+exports.m8=function(req, res){
+  res.render('m8', { title: 'Milestone 8' });
 };
